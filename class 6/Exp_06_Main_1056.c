@@ -9,8 +9,7 @@ int main() {
         int i, count;
 
         printf("Enter the non-terminal: ");
-        scanf(" %c", &nonTerminal);  // Note the space before %c to consume newline
-
+        scanf(" %c", &nonTerminal); 
         printf("Enter number of productions: ");
         scanf("%d", &count);
 
@@ -51,8 +50,7 @@ int main() {
         }
 
         printf("\nDo you want to enter another non-terminal? (y/n): ");
-        scanf(" %c", &choice);  // space to consume leftover newline
-
+        scanf(" %c", &choice); 
     } while(choice == 'y' || choice == 'Y');
 
     printf("Program terminated.\n");
